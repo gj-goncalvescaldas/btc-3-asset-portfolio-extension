@@ -1,6 +1,6 @@
 # El papel del Bitcoin en una cartera de inversión de tres activos (actualización hasta abril de 2025)
 
-Este repositorio contiene un análisis actualizado sobre la inclusión del **Bitcoin (BTC)** en una cartera de inversión diversificada junto con **acciones estadounidenses (índice S&P 500)** y **oro**, siguiendo la metodología propuesta en el estudio original disponible en [DataCamp](https://www.datacamp.com/datalab/w/21cc7714-89b7-48e4-b1b3-7733e95e536a).
+Este repositorio presenta un análisis actualizado sobre la inclusión del **Bitcoin (BTC)** en una cartera de inversión diversificada junto con **acciones estadounidenses (índice S&P 500)** y **oro**, siguiendo la misma metodología del estudio original disponible en [DataCamp](https://www.datacamp.com/datalab/w/21cc7714-89b7-48e4-b1b3-7733e95e536a).
 
 ---
 
@@ -9,7 +9,7 @@ Este repositorio contiene un análisis actualizado sobre la inclusión del **Bit
 2. [Objetivos del análisis](#2-objetivos-del-análisis)
 3. [Resumen del estudio original (2014-2021)](#3-resumen-del-estudio-original-2014-2021)
 4. [Actualización del análisis hasta abril de 2025](#4-actualización-del-análisis-hasta-abril-de-2025)
-5. [Conclusiones clave](#5-conclusiones-clave)
+5. [Próximo paso: FTSE All-World](#5-próximo-paso-ftse-all-world)
 6. [Referencias](#6-referencias)
 7. [Nota importante](#7-nota-importante)
 
@@ -17,65 +17,68 @@ Este repositorio contiene un análisis actualizado sobre la inclusión del **Bit
 
 ## 1. Introducción: ¿Qué es el Bitcoin y por qué considerarlo en una cartera de inversión?
 
-**Bitcoin (BTC)** es la criptomoneda más conocida y utilizada en todo el mundo. Creada en 2009 por una persona o grupo de personas bajo el seudónimo **Satoshi Nakamoto**, Bitcoin surgió como una moneda digital descentralizada, independiente de cualquier banco central, gobierno o entidad financiera tradicional. Su tecnología base, conocida como **blockchain**, permite registrar transacciones financieras de manera segura, transparente e irreversible.
+**Bitcoin (BTC)** es la criptomoneda más conocida y utilizada en todo el mundo. Creada en 2009 por una persona o grupo de personas bajo el seudónimo **Satoshi Nakamoto**, Bitcoin surgió como una moneda digital descentralizada, independiente de cualquier banco central, gobierno o entidad financiera tradicional.
 
-Desde sus comienzos, Bitcoin ha pasado de ser considerado un activo exótico reservado a personas con conocimientos informáticos avanzados a convertirse en una alternativa de inversión cada vez más accesible y popular. Gracias a la aparición de plataformas fáciles de usar, monederos digitales y productos financieros como fondos cotizados (ETFs), hoy en día cualquier inversor puede incluir Bitcoin en su cartera de inversiones de manera sencilla.
-
-La popularidad del Bitcoin se debe principalmente a:
-
-- **Rentabilidad elevada**: Históricamente, Bitcoin ha presentado rendimientos superiores a la mayoría de activos tradicionales, aunque con una volatilidad también mucho más alta.
-- **Diversificación**: Debido a que su comportamiento suele diferir del de otros activos como acciones o bonos, puede aportar un cierto grado de diversificación al combinarse en una cartera con activos tradicionales.
-- **Protección potencial frente a la inflación**: Aunque aún no está claramente demostrado, existe la hipótesis de que, debido a su suministro limitado (máximo 21 millones de unidades), Bitcoin podría funcionar como protección contra la pérdida de valor del dinero causada por la inflación.
+La tecnología blockchain sobre la que se basa permite registrar las transacciones de manera segura, transparente e inalterable.
 
 ### ¿Por qué me interesa especialmente el Bitcoin?
 
 En lo personal, Bitcoin es un activo que me gusta particularmente debido a varias razones:
 
-- **Innovación tecnológica**: La tecnología blockchain que lo respalda tiene el potencial de transformar profundamente diversos sectores económicos y financieros.
-- **Crecimiento potencial**: A pesar de su ya notable crecimiento, considero que Bitcoin todavía presenta un importante potencial alcista a largo plazo, especialmente en contextos económicos globales inciertos.
-- **Diversificación inteligente**: Me atrae añadir un activo digital innovador a una cartera tradicional compuesta principalmente por acciones, bonos y metales preciosos, buscando equilibrio entre rendimiento y riesgo.
+- **Independencia financiera**: Bitcoin no depende de gobiernos ni bancos centrales, a diferencia de las monedas fiat tradicionales.
+
+- **Seguridad e incorruptibilidad**: Gracias a la blockchain, las transacciones de Bitcoin quedan registradas de forma pública y no pueden ser manipuladas.
+
+- **Innovación tecnológica**: Es la aplicación más destacada de la tecnología blockchain, con un enorme impacto potencial a futuro.
+
+- **Potencial de crecimiento**: A pesar de su histórico crecimiento, considero que Bitcoin aún presenta recorrido a largo plazo como reserva de valor alternativa.
+
+- **Diversificación de carteras**: Me interesa especialmente analizar el papel de Bitcoin dentro de una cartera diversificada compuesta por:
+  - **S&P 500** → Representa las principales empresas de Estados Unidos.
+  - **Oro** → Tradicional activo refugio.
+  - **Bitcoin** → Activo digital, descentralizado e independiente de gobiernos.
+
+El objetivo principal de este análisis es comprobar, con datos actualizados hasta abril de 2025, si Bitcoin aporta valor dentro de una cartera diversificada de estos tres activos.
 
 ---
 
 ## 2. Objetivos del análisis
 
-Este estudio pretende responder a la siguiente pregunta clave:
+Este estudio pretende responder a las siguientes preguntas:
 
-> **¿Es beneficioso añadir Bitcoin a una cartera compuesta por activos tradicionales como acciones (S&P 500) y oro?**
-
-Para ello, analizaremos su comportamiento histórico hasta abril de 2025, siguiendo el enfoque original del estudio en DataCamp.
+- ¿Cómo ha sido el rendimiento y riesgo histórico de Bitcoin comparado con el S&P 500 y el oro?
+- ¿Qué impacto tiene añadir Bitcoin a una cartera diversificada?
+- ¿Cuál sería la asignación óptima de cada activo para minimizar el riesgo o maximizar el ratio de Sharpe?
 
 ---
 
 ## 3. Resumen del estudio original (2014-2021)
 
-En el estudio original se investigaron los siguientes aspectos:
-
-- **Rendimiento excepcional**: Bitcoin mostró un crecimiento anual compuesto medio (~100%), aunque con alta volatilidad.
-- **Correlación moderada** con el índice S&P 500 (0,3), aportando mejora en rentabilidad ajustada al riesgo (Sharpe ratio ~1,3).
-- **Inflación**: No se encontró evidencia clara para actuar como cobertura inflacionaria.
-- **Carteras óptimas obtenidas**:
-  - **Mínima volatilidad**: generalmente 0 % asignado al Bitcoin.
-  - **Máximo Sharpe**: alrededor del 13 % asignado al Bitcoin.
+- **Bitcoin** tuvo un rendimiento anual medio de ~100%, pero con una volatilidad muy superior a los activos tradicionales.
+- Su correlación con el S&P 500 fue moderada (~0,3).
+- No se encontró evidencia clara de que funcionara como cobertura frente a la inflación.
+- La mejor combinación riesgo-rentabilidad (Sharpe) incluía alrededor de un 13% en Bitcoin.
+- La cartera de mínima volatilidad no incluía Bitcoin.
 
 ---
 
 ## 4. Actualización del análisis hasta abril de 2025
 
-En esta **nueva fase**, se seguirá el mismo método analítico para abarcar datos hasta el **9 de abril de 2025**. Los objetivos específicos son:
+En esta actualización, replicamos la misma metodología del estudio original pero ampliando los datos hasta el **9 de abril de 2025**.
 
-1. Comprobar si el Bitcoin mantiene su patrón de alta volatilidad y alto rendimiento observado anteriormente.
-2. Revisar las correlaciones actualizadas con S&P 500 y oro, así como la relación con la inflación.
-3. Calcular nuevamente las carteras óptimas (mínima volatilidad y máximo Sharpe) usando [PyPortfolioOpt](https://github.com/robertmartin8/PyPortfolioOpt).
-4. Comparar resultados con el estudio previo y evaluar cambios en el papel del Bitcoin dentro de la cartera.
+El objetivo es comprobar si los resultados y conclusiones siguen siendo válidos en un contexto más actual y con mayor histórico de datos.
 
 ---
 
-## 5. Conclusiones clave
+## 5. Próximo paso: FTSE All-World
 
-(Se actualizarán tras completar el análisis hasta 2025)
+Una vez finalizado este análisis con S&P 500, Oro y Bitcoin, el siguiente paso será replicar exactamente el mismo estudio, pero sustituyendo el índice S&P 500 por el **FTSE All-World**, para tener una visión más global de los mercados de renta variable.
 
-Las conclusiones anteriores destacaron que una pequeña exposición (2-13%) a Bitcoin podría mejorar significativamente la rentabilidad ajustada al riesgo de una cartera tradicional.
+Esto permitirá analizar el rol del Bitcoin dentro de una cartera verdaderamente diversificada a nivel mundial:
+
+- **FTSE All-World** → Acciones globales.
+- **Oro** → Refugio tradicional.
+- **Bitcoin** → Activo digital y descentralizado.
 
 ---
 
@@ -90,5 +93,4 @@ Las conclusiones anteriores destacaron que una pequeña exposición (2-13%) a Bi
 
 ## 7. Nota importante
 
-Este análisis está basado en datos históricos y supuestos simplificados de la teoría moderna de carteras. Por tanto, debe complementarse con investigaciones cualitativas adicionales y análisis prospectivos considerando distintos escenarios futuros para una adecuada toma de decisiones.
-
+Este análisis está basado en datos históricos y en supuestos simplificados de la teoría de carteras. Por tanto, debe complementarse con análisis cualitativos adicionales y considerar distintos escenarios futuros para la correcta toma de decisiones de inversión.
