@@ -54,31 +54,59 @@ Este estudio pretende responder a las siguientes preguntas:
 
 ## 3. Resumen del estudio original (2014-2021)
 
-- **Bitcoin** tuvo un rendimiento anual medio de ~100%, pero con una volatilidad muy superior a los activos tradicionales.
-- Su correlación con el S&P 500 fue moderada (~0,3).
-- No se encontró evidencia clara de que funcionara como cobertura frente a la inflación.
-- La mejor combinación riesgo-rentabilidad (Sharpe) incluía alrededor de un 13% en Bitcoin.
-- La cartera de mínima volatilidad no incluía Bitcoin.
+El estudio original realizado en DataCamp analizó el papel del Bitcoin dentro de una cartera diversificada de 3 activos:
+
+- S&P 500 (acciones EEUU)
+- Oro
+- Bitcoin
+
+### Objetivo principal del estudio
+
+> *¿Mejora realmente el rendimiento ajustado al riesgo de una cartera tradicional si incluimos Bitcoin?*
+
+### ¿Qué hizo el estudio?
+
+- Exploró precios y rentabilidades históricas de BTC, S&P 500 y oro.
+- Analizó volatilidades, drawdowns, Value at Risk (VaR) y ratio de Sharpe.
+- Estudió las correlaciones entre activos.
+- Analizó la relación de Bitcoin con la inflación.
+- Construyó carteras optimizadas usando PyPortfolioOpt:
+  - Minimizar volatilidad.
+  - Maximizar Sharpe Ratio.
+
+### Resultados principales
+
+| Métrica        | Bitcoin | S&P 500 | Oro    |
+|----------------|---------|---------|--------|
+| Rentabilidad anual media (CAGR) | ~103%   | ~12,5%  | ~5,4%  |
+| Volatilidad anual  | 82,5%   | 14,4%   | 12,6%   |
+| Sharpe Ratio       | 1,3     | 0,9     | 0,4     |
+
+- Correlación BTC - S&P 500 → ~0,3 (relación moderada).
+- No se encontró evidencia de que BTC cubra contra inflación.
+- Cartera de mínima volatilidad → Sin Bitcoin.
+- Cartera de máximo Sharpe → ~13% en Bitcoin.
+- Solución intermedia conservadora → Incluir 2% Bitcoin para mejorar rentabilidad sin aumentar demasiado el riesgo.
 
 ---
 
 ## 4. Actualización del análisis hasta abril de 2025
 
-En esta actualización, replicamos la misma metodología del estudio original pero ampliando los datos hasta el **9 de abril de 2025**.
+Este repositorio replica exactamente el análisis del estudio original, pero actualizando los datos hasta el **9 de abril de 2025**.
 
-El objetivo es comprobar si los resultados y conclusiones siguen siendo válidos en un contexto más actual y con mayor histórico de datos.
+Queremos comprobar si los resultados se mantienen en un periodo más largo y reciente, y si Bitcoin sigue teniendo un papel relevante en una cartera diversificada junto a S&P 500 y oro.
 
 ---
 
 ## 5. Próximo paso: FTSE All-World
 
-Una vez finalizado este análisis con S&P 500, Oro y Bitcoin, el siguiente paso será replicar exactamente el mismo estudio, pero sustituyendo el índice S&P 500 por el **FTSE All-World**, para tener una visión más global de los mercados de renta variable.
+Una vez finalizado este análisis, el siguiente paso será realizar el mismo estudio, pero sustituyendo el índice S&P 500 por el **FTSE All-World**, un índice que representa de forma mucho más completa las bolsas de todo el mundo.
 
-Esto permitirá analizar el rol del Bitcoin dentro de una cartera verdaderamente diversificada a nivel mundial:
+El objetivo será analizar si Bitcoin sigue aportando valor dentro de una cartera más global compuesta por:
 
 - **FTSE All-World** → Acciones globales.
 - **Oro** → Refugio tradicional.
-- **Bitcoin** → Activo digital y descentralizado.
+- **Bitcoin** → Activo digital, independiente de gobiernos.
 
 ---
 
@@ -93,4 +121,4 @@ Esto permitirá analizar el rol del Bitcoin dentro de una cartera verdaderamente
 
 ## 7. Nota importante
 
-Este análisis está basado en datos históricos y en supuestos simplificados de la teoría de carteras. Por tanto, debe complementarse con análisis cualitativos adicionales y considerar distintos escenarios futuros para la correcta toma de decisiones de inversión.
+Este análisis está basado en datos históricos y en supuestos simplificados de la teoría moderna de carteras. Por tanto, debe complementarse con análisis cualitativos adicionales y considerar distintos escenarios futuros para la correcta toma de decisiones de inversión.
