@@ -1,124 +1,68 @@
-# El papel del Bitcoin en una cartera de inversión de tres activos (actualización hasta abril de 2025)
+# The Role of Bitcoin in a 3-Asset Portfolio – Analysis & Replication
 
-Este repositorio presenta un análisis actualizado sobre la inclusión del **Bitcoin (BTC)** en una cartera de inversión diversificada junto con **acciones estadounidenses (índice S&P 500)** y **oro**, siguiendo la misma metodología del estudio original disponible en [DataCamp](https://www.datacamp.com/datalab/w/21cc7714-89b7-48e4-b1b3-7733e95e536a).
-
----
-
-## 📖 Índice de contenidos
-1. [Introducción: ¿Qué es el Bitcoin y por qué considerarlo?](#1-introducción-qué-es-el-bitcoin-y-por-qué-considerarlo-en-una-cartera-de-inversión)
-2. [Objetivos del análisis](#2-objetivos-del-análisis)
-3. [Resumen del estudio original (2014-2021)](#3-resumen-del-estudio-original-2014-2021)
-4. [Actualización del análisis hasta abril de 2025](#4-actualización-del-análisis-hasta-abril-de-2025)
-5. [Próximo paso: FTSE All-World](#5-próximo-paso-ftse-all-world)
-6. [Referencias](#6-referencias)
-7. [Nota importante](#7-nota-importante)
+## Table of Contents
+1. [Introduction](#introduction)  
+2. [Motivation & Background](#motivation--background)  
+3. [About the Original Study](#about-the-original-study)  
+4. [Disclaimer](#disclaimer)  
+5. [License](#license)
 
 ---
 
-## 1. Introducción: ¿Qué es el Bitcoin y por qué considerarlo en una cartera de inversión?
-
-**Bitcoin (BTC)** es la criptomoneda más conocida y utilizada en todo el mundo. Creada en 2009 por una persona o grupo de personas bajo el seudónimo **Satoshi Nakamoto**, Bitcoin surgió como una moneda digital descentralizada, independiente de cualquier banco central, gobierno o entidad financiera tradicional.
-
-La tecnología blockchain sobre la que se basa permite registrar las transacciones de manera segura, transparente e inalterable.
-
-### ¿Por qué me interesa especialmente el Bitcoin?
-
-En lo personal, Bitcoin es un activo que me gusta particularmente debido a varias razones:
-
-- **Independencia financiera**: Bitcoin no depende de gobiernos ni bancos centrales, a diferencia de las monedas fiat tradicionales.
-
-- **Seguridad e incorruptibilidad**: Gracias a la blockchain, las transacciones de Bitcoin quedan registradas de forma pública y no pueden ser manipuladas.
-
-- **Innovación tecnológica**: Es la aplicación más destacada de la tecnología blockchain, con un enorme impacto potencial a futuro.
-
-- **Potencial de crecimiento**: A pesar de su histórico crecimiento, considero que Bitcoin aún presenta recorrido a largo plazo como reserva de valor alternativa.
-
-- **Diversificación de carteras**: Me interesa especialmente analizar el papel de Bitcoin dentro de una cartera diversificada compuesta por:
-  - **S&P 500** → Representa las principales empresas de Estados Unidos.
-  - **Oro** → Tradicional activo refugio.
-  - **Bitcoin** → Activo digital, descentralizado e independiente de gobiernos.
-
-El objetivo principal de este análisis es comprobar, con datos actualizados hasta abril de 2025, si Bitcoin aporta valor dentro de una cartera diversificada de estos tres activos.
+## Introduction
+Welcome to this GitHub project focusing on **Bitcoin’s role in a 3-asset portfolio**. The main objective here is to analyze the findings from an academic study and then replicate or extend those findings using more recent data. While I hold a strong interest in Bitcoin as an asset, please note this is **not** financial or investment advice but rather an **educational** exploration.
 
 ---
 
-## 2. Objetivos del análisis
+## Motivation & Background
+I’ve been interested in economics since my school days. However, it wasn’t until I suffered an accident (requiring three surgical interventions) that I found the time to revisit my fascination with financial markets. During recovery, I delved deeper into how monetary policy and inflation affect our daily lives—especially as these factors seemed to magnify following the COVID-19 pandemic.
 
-Este estudio pretende responder a las siguientes preguntas:
+My interest in Bitcoin arose around 2024, though I was aware of it much earlier. Initially, I viewed Bitcoin as a speculative vehicle. Over time, however, the persistent erosion of purchasing power in traditional currencies led me to consider Bitcoin’s potential as more than just a tool for speculation.
 
-- ¿Cómo ha sido el rendimiento y riesgo histórico de Bitcoin comparado con el S&P 500 y el oro?
-- ¿Qué impacto tiene añadir Bitcoin a una cartera diversificada?
-- ¿Cuál sería la asignación óptima de cada activo para minimizar el riesgo o maximizar el ratio de Sharpe?
+### Preliminary Observations & Thoughts
+- **Inflation & Fiat Devaluation**:  
+  - A euro today buys only about 58.207% of what it did in 2000.  
+  - A dollar today buys only about 53.847% of what it did in 2000.  
+  - A franc today buys only about 86.192% of what it did in 2000.  
+  *(Data from [in2013dollars.com](https://www.in2013dollars.com/))*
 
----
+- **Limited Supply & Decentralization**:  
+  Bitcoin’s capped supply (21 million coins) appeals to those concerned about central banks’ ability to print money indefinitely. Its decentralized ledger (spread across many computers) also makes it less susceptible to corruption or unilateral control.
 
-## 3. Resumen del estudio original (2014-2021)
+- **Risk & Volatility**:  
+  Bitcoin remains a relatively new and **risky** asset compared to more established investments like equities or gold. Nonetheless, risk is a part of its allure and underscores why careful analysis is necessary before making any decisions.
 
-El estudio original realizado en DataCamp analizó el papel del Bitcoin dentro de una cartera diversificada de 3 activos:
+- **Housing Prices in Gold Terms**:  
+  - **2000**: €1,800 per m² / €248 per oz of gold ≈ **7.26 ounces of gold** per m².  
+  - **2024**: €4,500 per m² / €2,884 per oz of gold ≈ **1.56 ounces of gold** per m².  
+  - **Interpretation**: Despite the nominal rise in housing prices in Madrid, the cost per square meter **decreased by approximately 78%** when measured in gold between 2000 and 2024. This suggests that gold has appreciated at a faster rate than real estate in Madrid over this period.  
+  *(References: [pressdigital.es](https://pressdigital.es), [oro.bullionvault.es](https://oro.bullionvault.es), [banker-house.com](https://banker-house.com))*  
 
-- S&P 500 (acciones EEUU)
-- Oro
-- Bitcoin
-
-### Objetivo principal del estudio
-
-> *¿Mejora realmente el rendimiento ajustado al riesgo de una cartera tradicional si incluimos Bitcoin?*
-
-### ¿Qué hizo el estudio?
-
-- Exploró precios y rentabilidades históricas de BTC, S&P 500 y oro.
-- Analizó volatilidades, drawdowns, Value at Risk (VaR) y ratio de Sharpe.
-- Estudió las correlaciones entre activos.
-- Analizó la relación de Bitcoin con la inflación.
-- Construyó carteras optimizadas usando PyPortfolioOpt:
-  - Minimizar volatilidad.
-  - Maximizar Sharpe Ratio.
-
-### Resultados principales
-
-| Métrica        | Bitcoin | S&P 500 | Oro    |
-|----------------|---------|---------|--------|
-| Rentabilidad anual media (CAGR) | ~103%   | ~12,5%  | ~5,4%  |
-| Volatilidad anual  | 82,5%   | 14,4%   | 12,6%   |
-| Sharpe Ratio       | 1,3     | 0,9     | 0,4     |
-
-- Correlación BTC - S&P 500 → ~0,3 (relación moderada).
-- No se encontró evidencia de que BTC cubra contra inflación.
-- Cartera de mínima volatilidad → Sin Bitcoin.
-- Cartera de máximo Sharpe → ~13% en Bitcoin.
-- Solución intermedia conservadora → Incluir 2% Bitcoin para mejorar rentabilidad sin aumentar demasiado el riesgo.
+- **Bitcoin as a Long-Term Store of Value**:  
+  I believe Bitcoin has characteristics akin to gold. Its long-term price behavior shows that, while it can be volatile, it may serve as a store of value over a multi-year horizon. For instance, someone who bought Bitcoin on **December 16, 2017**, at around **$16,000**, had to wait until **2020** to see the price return to that same valuation. This perspective implies that if you invest in Bitcoin, you might not be overly concerned about its price movements in the short term (e.g., 1–5 years).
 
 ---
 
-## 4. Actualización del análisis hasta abril de 2025
+## About the Original Study
+- **Title**: *The Role of Bitcoin in a 3-Asset Portfolio*  
+- **Author**: Phillip Schottler  
+- **Date of Publication**: June 14, 2022  
+- **Data Range**: *September 17, 2014 – November 17, 2021*  
+- **Link**: [Study on DataCamp Datalab](https://www.datacamp.com/datalab/w/21cc7714-89b7-48e4-b1b3-7733e95e536a)
 
-Este repositorio replica exactamente el análisis del estudio original, pero actualizando los datos hasta el **9 de abril de 2025**.
-
-Queremos comprobar si los resultados se mantienen en un periodo más largo y reciente, y si Bitcoin sigue teniendo un papel relevante en una cartera diversificada junto a S&P 500 y oro.
-
----
-
-## 5. Próximo paso: FTSE All-World
-
-Una vez finalizado este análisis, el siguiente paso será realizar el mismo estudio, pero sustituyendo el índice S&P 500 por el **FTSE All-World**, un índice que representa de forma mucho más completa las bolsas de todo el mundo.
-
-El objetivo será analizar si Bitcoin sigue aportando valor dentro de una cartera más global compuesta por:
-
-- **FTSE All-World** → Acciones globales.
-- **Oro** → Refugio tradicional.
-- **Bitcoin** → Activo digital, independiente de gobiernos.
+This study examines how Bitcoin can impact the returns and risk profile of a portfolio that otherwise consists of more traditional assets. It explores correlations, volatility, and overall diversification benefits. My plan is to look at this original analysis, replicate it with the same date range, and then apply a similar framework using **updated data** to see if the conclusions still hold.
 
 ---
 
-## 6. Referencias
-
-- [Estudio original en DataCamp](https://www.datacamp.com/datalab/w/21cc7714-89b7-48e4-b1b3-7733e95e536a)
-- [PyPortfolioOpt (Martin, R. A., 2021)](https://doi.org/10.21105/joss.03066)
-- Datos históricos de inflación: [U.S. Bureau of Labor Statistics](https://www.bls.gov/)
-- Datos históricos de mercados financieros: [Yahoo Finance](https://finance.yahoo.com/)
+## Disclaimer
+**Not Financial Advice**  
+All information in this repository is provided **solely** for educational and informational purposes. It does **not** constitute financial, legal, or any other professional advice. The cryptocurrency market is highly speculative and volatile. Always conduct your own due diligence and consider consulting a certified financial advisor before making any investment decisions.
 
 ---
 
-## 7. Nota importante
+## License
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the contents of this repository, provided the original copyright notice and license terms are retained.
 
-Este análisis está basado en datos históricos y en supuestos simplificados de la teoría moderna de carteras. Por tanto, debe complementarse con análisis cualitativos adicionales y considerar distintos escenarios futuros para la correcta toma de decisiones de inversión.
+---
+
+**Thank you for reading!** Feel free to open an issue or submit a pull request if you have questions or suggestions.
