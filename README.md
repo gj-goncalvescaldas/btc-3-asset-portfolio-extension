@@ -4,8 +4,9 @@
 1. [Introduction](#introduction)  
 2. [Motivation & Background](#motivation--background)  
 3. [About the Original Study](#about-the-original-study)  
-4. [Disclaimer](#disclaimer)  
-5. [License](#license)
+4. [Dive into the Study](#dive-into-the-study)  
+5. [Disclaimer](#disclaimer)  
+6. [License](#license)
 
 ---
 
@@ -51,6 +52,93 @@ My interest in Bitcoin arose around 2024, though I was aware of it much earlier.
 - **Link**: [Study on DataCamp Datalab](https://www.datacamp.com/datalab/w/21cc7714-89b7-48e4-b1b3-7733e95e536a)
 
 This study examines how Bitcoin can impact the returns and risk profile of a portfolio that otherwise consists of more traditional assets. It explores correlations, volatility, and overall diversification benefits. My plan is to look at this original analysis, replicate it with the same date range, and then apply a similar framework using **updated data** to see if the conclusions still hold.
+
+---
+
+## Dive into the Study
+
+To help answer the key questions, this report analyzes Bitcoin’s performance since 2014 alongside the two other major asset classes in our fund—US equities and gold. We aim to shed light on:
+
+1. **Bitcoin’s relative performance** (risk and returns) vs. the S&P 500 and gold.  
+2. **Portfolio implications** of including Bitcoin: Does it improve performance?  
+3. **Inflation-hedging properties** of Bitcoin.  
+4. **Risk minimization** in a portfolio with Bitcoin: Where does Bitcoin fit in a minimum-volatility allocation, and how does a risk-adjusted “optimal” portfolio look?
+
+> **Note of caution**:  
+> This analysis is entirely based on **historical data** (2014–2021). The period analyzed is relatively short and includes years of fairly low inflation, as well as Bitcoin’s early adoption phase with massive investor inflows. Extrapolating past performance into the future can be misleading. We strongly recommend complementing any conclusions here with **forward-looking** research, especially as inflation rose markedly in 2022.
+
+### Main Findings
+
+#### Finding 1
+**Strong outperformance of Bitcoin** over the observation period (Sep 2014 – Oct 2021).  
+- Bitcoin’s average annual return of **+103.2%** dwarfed gold’s **+5.4%** and the S&P 500’s **+12.5%**.  
+- Over the entire period, Bitcoin’s value increased by a factor of roughly **160×**, compared to **2.3×** for the S&P 500 and **1.5×** for gold.
+
+#### Finding 2
+**Rising popularity of Bitcoin** based on its trading volume.  
+- Daily S&P 500 trading volume remained relatively stable, while Bitcoin’s trading volume grew sharply.  
+- By late 2017, Bitcoin’s trading volume surpassed that of the S&P 500, at times exceeding it by **12.5×** in 2021.  
+- **Caution**: Reported BTC trading volumes could be inflated; further data verification is recommended.
+
+#### Finding 3
+**Year-by-year outperformance** by Bitcoin.  
+- Bitcoin outperformed both gold and the S&P 500 in **every** year except 2018.  
+- Notable performances: **2017** (+1425%) and **2020** (+303%).
+
+#### Finding 4
+**Monthly returns distribution** shows Bitcoin’s **extreme volatility** and **fat tails**.  
+- S&P 500 and gold exhibit a near-normal distribution.  
+- Bitcoin’s distribution is much wider, with more frequent extreme outcomes, yet a **positive skew**.
+
+#### Finding 5
+**Risk vs. return metrics** confirm **Bitcoin’s high reward** and **high risk**:
+- **Annualized volatility** ~82.5% for Bitcoin vs. ~14% for S&P 500.  
+- **Max drawdown** of ~-83% for Bitcoin vs. ~-34% for S&P 500.  
+- **Sharpe ratio** (0% risk-free): 1.3 (BTC) > 0.9 (S&P 500) > 0.4 (gold).  
+- **Value-at-Risk (VaR 95%)** and **Expected Shortfall** also significantly higher for Bitcoin.
+
+#### Finding 6
+**Intraday trading range** is notably higher for Bitcoin, averaging **4.9%** vs. **1%** for S&P 500, with spikes reaching **30–40%**.
+
+#### Finding 7
+**No strong relationship with inflation**:
+- Near-zero correlation between **Bitcoin** and **inflation**.  
+- Bitcoin and S&P 500 have a moderate positive correlation (~0.3), limiting diversification benefits.  
+- Gold remains somewhat negatively correlated with equities, thus helpful for diversification.
+
+#### Finding 8
+**Bitcoin returns under high inflation**:
+- Splitting inflation data into high, medium, and low percentiles does not show any **significant** difference in BTC returns under high inflation.  
+- Mean and median BTC returns were slightly **lower** during high-inflation months, and the **worst** negative outcome also occurred under high inflation.
+
+### Selected Figures & Tables
+
+#### Table: Asset Class Summary Statistics (2014–2021)
+
+| **Index**                                          | **S&P 500** | **Gold** | **Bitcoin** |
+|:--------------------------------------------------:|:----------:|:--------:|:-----------:|
+| **Annual Return (in %)**                           | 12.6       | 5.4      | 103.2       |
+| **Annual Volatility (in %)**                       | 14.4       | 12.6     | 82.5        |
+| **Sharpe Ratio**                                   | 0.9        | 0.4      | 1.3         |
+| **Max. Drawdown (mthly, in %)**                    | -20        | -16.1    | -76.4       |
+| **Max. Drawdown (daily, in %)**                    | -33.9      | N/A      | -83         |
+| **VaR(95) (in %)**                                 | -6.6       | -5.7     | -29.3       |
+| **CVaR(95)/Expected Shortfall (in %)**             | -9.3       | -6.8     | -34         |
+
+#### Table: Correlation Coefficients
+
+| **Index**   | **S&P 500** | **Gold** | **Bitcoin** | **US CPI** |
+|:-----------:|:----------:|:--------:|:-----------:|:----------:|
+| **S&P 500** | 1          | -0.15    | 0.3         | 0.11       |
+| **Gold**    | -0.15      | 1        | -0.01       | -0.08      |
+| **Bitcoin** | 0.3        | -0.01    | 1           | 0.04       |
+| **US CPI**  | 0.11       | -0.08    | 0.04        | 1          |
+
+> **Bottom Line**:  
+> - **Bitcoin** delivered **exponential returns** (2014–2021) but with **significant volatility** and **drawdown risk**.  
+> - Its correlation with **inflation** is near **zero**, suggesting **no clear hedging** benefits.  
+> - A **moderate positive correlation** with **equities** reduces its role as a diversifier compared to **gold** (which is somewhat negatively correlated).  
+> - Historical performance does **not** guarantee future results—particularly with higher inflation observed post-2021, Bitcoin’s behavior could **change**.
 
 ---
 
