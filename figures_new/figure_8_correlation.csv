@@ -1,0 +1,5 @@
+,avg_close_sp500,avg_price_gold,avg_close_btc,cpi_return
+avg_close_sp500,1.0,0.31,0.22,-0.49
+avg_price_gold,0.31,1.0,0.12,-0.09
+avg_close_btc,0.22,0.12,1.0,-0.33
+cpi_return,-0.49,-0.09,-0.33,1.0
