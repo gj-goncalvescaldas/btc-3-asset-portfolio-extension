@@ -274,18 +274,12 @@ This is not exactly the same as the daily intraday range used by the author, but
 
 ![Fig. 6: Intraday trading ranges (monthly data approximation)](/fig/FIG6.png)
 
----
-
 ##### Comments & Interpretation:
 - Bitcoin continues to show a much higher intraday volatility compared to S&P 500.
 - However, there is a clear pattern of stabilization from **2021** onwards for both assets.
 - Bitcoin's intraday range has progressively decreased, moving towards a more "mature asset" behaviour.
 - The S&P 500 also experienced higher ranges during stress periods (2018, 2020 COVID crisis), but its long-term average remains significantly lower.
 
-> 📌 **Final Thought**:  
-Bitcoin is still a highly volatile asset on a monthly basis, but the progressive decline in its intraday range might suggest that the market is becoming more liquid, efficient, and mature over time.
-
----
 ---
 #### Finding 7
 **No strong relationship with inflation**:
