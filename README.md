@@ -187,16 +187,71 @@ As we can see in the next chart, Bitcoin continues to outperform both gold and S
 
 ---
 #### Finding 4
-**Monthly returns distribution** shows Bitcoin’s **extreme volatility** and **fat tails**.  
-- S&P 500 and gold exhibit a near-normal distribution.  
-- Bitcoin’s distribution is much wider, with more frequent extreme outcomes, yet a **positive skew**.
+##### Original Finding (Author)
+
+> **Monthly returns distribution** shows Bitcoin’s **extreme volatility** and **fat tails**.  
+>
+> - S&P 500 and gold exhibit a near-normal distribution.  
+> - Bitcoin’s distribution is much wider, with more frequent extreme outcomes, yet a **positive skew**.
+
+##### Updated Finding 4 (Sep 2014 – Feb 2025)
+
+The behaviour of the monthly returns continues to be the same.  
+Bitcoin shows much higher volatility compared to traditional assets like the S&P 500 and Gold.  
+
+- S&P 500 → Returns concentrated between -5% and +5%.  
+- Gold → Similar to S&P 500 but slightly wider spread.  
+- Bitcoin → Extreme returns, both positive and negative, are much more frequent.
+
+#### Chart: Distribution of Monthly Returns (Sep 2014 – Feb 2025)
+
+![Fig. 4: Distribution of Monthly Returns](/fig/FIG4.png)
+
+> 📌 **Comment**: Bitcoin is still far from behaving like a traditional asset in terms of volatility. Its monthly returns are completely out of scale compared to Gold or S&P 500. This confirms that Bitcoin is still a very speculative and volatile asset — suitable only for long-term investors who can tolerate these swings.
 ---
 #### Finding 5
-**Risk vs. return metrics** confirm **Bitcoin’s high reward** and **high risk**:
-- **Annualized volatility** ~82.5% for Bitcoin vs. ~14% for S&P 500.  
-- **Max drawdown** of ~-83% for Bitcoin vs. ~-34% for S&P 500.  
-- **Sharpe ratio** (0% risk-free): 1.3 (BTC) > 0.9 (S&P 500) > 0.4 (gold).  
-- **Value-at-Risk (VaR 95%)** and **Expected Shortfall** also significantly higher for Bitcoin.
+##### Original Finding (Author)
+
+| **Index**                                          | **S&P 500** | **Gold** | **Bitcoin** |
+|:--------------------------------------------------:|:----------:|:--------:|:-----------:|
+| **Annual Return (in %)**                           | 12.6       | 5.4      | 103.2       |
+| **Annual Volatility (in %)**                       | 14.4       | 12.6     | 82.5        |
+| **Sharpe Ratio**                                   | 0.9        | 0.4      | 1.3         |
+| **Max. Drawdown (mthly, in %)**                    | -20        | -16.1    | -76.4       |
+| **Max. Drawdown (daily, in %)**                    | -33.9      | N/A      | -83         |
+| **VaR(95) (in %)**                                 | -6.6       | -5.7     | -29.3       |
+| **CVaR(95)/Expected Shortfall (in %)**             | -9.3       | -6.8     | -34         |
+
+> **Risk vs. return metrics** confirm **Bitcoin’s high reward** and **high risk**:
+> - **Annualized volatility** ~82.5% for Bitcoin vs. ~14% for S&P 500.  
+> - **Max drawdown** of ~-83% for Bitcoin vs. ~-34% for S&P 500.  
+> - **Sharpe ratio** (0% risk-free): 1.3 (BTC) > 0.9 (S&P 500) > 0.4 (gold).  
+> - **Value-at-Risk (VaR 95%)** and **Expected Shortfall** also significantly higher for Bitcoin.
+
+##### Updated Finding 5 (Sep 2014 – Feb 2025)
+
+| **Index**                                          | **S&P 500** | **Gold** | **Bitcoin** |
+|:--------------------------------------------------:|:----------:|:--------:|:-----------:|
+| **Annual Return (in %)**                           | 13.7       | 8.4      | 67.7        |
+| **Annual Volatility (in %)**                       | 12.4       | 13.8     | 74.5        |
+| **Sharpe Ratio**                                   | 1.1        | 0.7      | 1.0         |
+| **Max. Drawdown (mthly, in %)**                    | -14.1      | -17.4    | -75.6       |
+| **Max. Drawdown (daily, in %)**                    | -33.9      | N/A      | -83.0       |
+| **VaR(95) (in %)**                                 | -4.9       | -5.5     | -23.9       |
+| **CVaR(5) / Expected Shortfall (in %)**            | -6.4       | -6.6     | -32.5       |
+
+> 📌 **Comment**:  
+> Bitcoin keeps showing the same pattern: extremely high returns but also extreme volatility and drawdowns.  
+
+> My results are slightly different from the original study, probably because of the data used and the transformations applied. But the general conclusion remains the same:  
+> - High returns → High volatility → High risk.
+
+> Another interesting point:  
+> - S&P 500 improved its Sharpe ratio in this extended period.  
+> - Gold remains the defensive asset with low returns but stable behaviour.  
+> - Bitcoin’s CAGR (67.7%) shows a significant decrease compared to the early period (103.2%), confirming the maturation of the asset.
+
+---
 ---
 #### Finding 6
 **Intraday trading range** is notably higher for Bitcoin, averaging **4.9%** vs. **1%** for S&P 500, with spikes reaching **30–40%**.
@@ -214,17 +269,6 @@ As we can see in the next chart, Bitcoin continues to outperform both gold and S
 
 ### Selected Figures & Tables
 
-#### Table: Asset Class Summary Statistics (2014–2021)
-
-| **Index**                                          | **S&P 500** | **Gold** | **Bitcoin** |
-|:--------------------------------------------------:|:----------:|:--------:|:-----------:|
-| **Annual Return (in %)**                           | 12.6       | 5.4      | 103.2       |
-| **Annual Volatility (in %)**                       | 14.4       | 12.6     | 82.5        |
-| **Sharpe Ratio**                                   | 0.9        | 0.4      | 1.3         |
-| **Max. Drawdown (mthly, in %)**                    | -20        | -16.1    | -76.4       |
-| **Max. Drawdown (daily, in %)**                    | -33.9      | N/A      | -83         |
-| **VaR(95) (in %)**                                 | -6.6       | -5.7     | -29.3       |
-| **CVaR(95)/Expected Shortfall (in %)**             | -9.3       | -6.8     | -34         |
 
 #### Table: Correlation Coefficients
 
