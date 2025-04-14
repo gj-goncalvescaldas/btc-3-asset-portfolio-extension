@@ -270,9 +270,7 @@ This is not exactly the same as the daily intraday range used by the author, but
 | S&P 500   | **6.94%**                    |
 | Bitcoin   | **31.15%**                   |
 
----
-
-## Chart: Intraday trading ranges (monthly data approximation)
+##### Chart: Intraday trading ranges (monthly data approximation)
 
 ![Fig. 6: Intraday trading ranges (monthly data approximation)](/fig/FIG6.png)
 
