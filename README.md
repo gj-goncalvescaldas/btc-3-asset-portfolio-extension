@@ -16,7 +16,7 @@ Welcome to this GitHub project focusing on **Bitcoin’s role in a 3-asset portf
 ---
 
 ## Motivation & Background
-I’ve been interested in economics since my school days. However, it wasn’t until I suffered an accident (requiring three surgical interventions) that I found the time to revisit my fascination with financial markets. During recovery, I delved deeper into how monetary policy and inflation affect our daily lives—especially as these factors seemed to magnify following the COVID-19 pandemic.
+I’ve been interested in economics since my school days. However, it wasn’t until I suffered an accident that I found the time to revisit my fascination with financial markets. During recovery, I delved deeper into how monetary policy and inflation affect our daily lives—especially as these factors seemed to magnify following the COVID-19 pandemic.
 
 My interest in Bitcoin arose around 2024, though I was aware of it much earlier. Initially, I viewed Bitcoin as a speculative vehicle. Over time, however, the persistent erosion of purchasing power in traditional currencies led me to consider Bitcoin’s potential as more than just a tool for speculation.
 
