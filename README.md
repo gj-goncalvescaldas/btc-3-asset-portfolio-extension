@@ -282,27 +282,74 @@ This is not exactly the same as the daily intraday range used by the author, but
 
 ---
 #### Finding 7
-**No strong relationship with inflation**:
-- Near-zero correlation between **Bitcoin** and **inflation**.  
-- Bitcoin and S&P 500 have a moderate positive correlation (~0.3), limiting diversification benefits.  
-- Gold remains somewhat negatively correlated with equities, thus helpful for diversification.
+##### Original Finding (Author)
+
+> **Correlation Coefficients (2014–2021)**  
+>
+> | Index      | S&P 500 | Gold   | Bitcoin | US CPI |
+> |------------|---------|--------|---------|--------|
+> | S&P 500    | 1       | -0.15  | 0.30    | 0.11   |
+> | Gold       | -0.15   | 1      | -0.01   | -0.08  |
+> | Bitcoin    | 0.30    | -0.01  | 1       | 0.04   |
+> | US CPI     | 0.11    | -0.08  | 0.04    | 1      |
+
+> - Bitcoin and S&P 500 show a moderate positive correlation (~0.30).  
+> - Bitcoin and Gold are almost uncorrelated.  
+> - Bitcoin and US CPI (inflation) correlation is nearly zero.
+
+##### Updated Finding 7 (Sep 2014 – Feb 2025)
+
+| Index      | S&P 500 | Gold   | Bitcoin | US CPI |
+|------------|---------|--------|---------|--------|
+| S&P 500    | 1.00    | -0.04  | 0.37    | -0.02  |
+| Gold       | -0.04   | 1.00   | 0.08    | -0.13  |
+| Bitcoin    | 0.37    | 0.08   | 1.00    | -0.04  |
+| US CPI     | -0.02   | -0.13  | -0.04   | 1.00   |
+
+## Chart: Correlation Coefficients (Sep 2014 – Feb 2025)
+
+![Fig. 8: Correlation coefficients](/fig/FIG7.png)
+
+### Key Insights:
+
+| Relation | Comment | Change vs Author |
+|----------|---------|------------------|
+| Bitcoin vs S&P 500 | The correlation increased from **0.30** to **0.37** | Bitcoin is behaving more like a risk-on asset |
+| Bitcoin vs Gold | Slight increase from **-0.01** to **0.08** | Still uncorrelated |
+| Bitcoin vs US CPI | Dropped from **0.04** to **-0.04** | Confirmed: No inflation hedge behaviour |
+
+> 📌 **Comment**:  
+As Bitcoin matures and integrates into traditional finance, its correlation with the stock market (S&P 500) is increasing. On the other hand, its correlation with inflation (CPI) remains almost zero or even slightly negative, reinforcing that Bitcoin has not been acting as a short-term inflation hedge during this period.
+
 ---
 #### Finding 8
-**Bitcoin returns under high inflation**:
-- Splitting inflation data into high, medium, and low percentiles does not show any **significant** difference in BTC returns under high inflation.  
-- Mean and median BTC returns were slightly **lower** during high-inflation months, and the **worst** negative outcome also occurred under high inflation.
+##### Original Finding (Author)
 
-### Selected Figures & Tables
+> **Bitcoin returns under high inflation**:  
+> Splitting inflation data into high, medium, and low percentiles does **not** show any **significant** difference in BTC returns under high inflation.  
+> Mean and median BTC returns were **slightly lower** during high-inflation months, and the **worst** negative outcome also occurred under high inflation.
 
+##### Updated Finding 8 (Sep 2014 – Feb 2025)
 
-#### Table: Correlation Coefficients
+![Fig. 9: Monthly Bitcoin returns by inflation percentiles](/fig/FIG9.png)
 
-| **Index**   | **S&P 500** | **Gold** | **Bitcoin** | **US CPI** |
-|:-----------:|:----------:|:--------:|:-----------:|:----------:|
-| **S&P 500** | 1          | -0.15    | 0.3         | 0.11       |
-| **Gold**    | -0.15      | 1        | -0.01       | -0.08      |
-| **Bitcoin** | 0.3        | -0.01    | 1           | 0.04       |
-| **US CPI**  | 0.11       | -0.08    | 0.04        | 1          |
+This boxplot divides Bitcoin monthly returns into 3 groups depending on the **US CPI (month-over-month)** percentiles:
+- **High CPI (top 10%)**
+- **Medium CPI**
+- **Low CPI (bottom 10%)**
+
+#### Key Observations:
+- During **high inflation months**, the **median return is lower** than in other periods.
+- The **largest negative outliers** (worst returns) also occurred during high CPI.
+- **Medium CPI** months actually show the **best performance** on average.
+- **Low CPI** months are positive, but less than medium.
+
+📌 **Interpretation**:  
+While not statistically dramatic, there is a clear **tendency for Bitcoin to struggle more in very high inflation periods**.
+
+This confirms the author’s conclusion that:  
+> Bitcoin is **not** a strong inflation hedge.
+
 
 > **Bottom Line**:  
 > - **Bitcoin** delivered **exponential returns** (2014–2021) but with **significant volatility** and **drawdown risk**.  
