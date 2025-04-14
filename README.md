@@ -11,7 +11,7 @@
 ---
 
 ## Introduction
-Welcome to this GitHub project focusing on **Bitcoin’s role in a 3-asset portfolio**. The main objective here is to analyze the findings from an academic study and then replicate or extend those findings using more recent data. While I hold a strong interest in Bitcoin as an asset, please note this is **not** financial or investment advice but rather an **educational** exploration.
+Welcome to this project analyzing **Bitcoin’s role in a 3-asset portfolio** alongside gold and the S&P 500. This work replicates and extends the findings of a published academic study using updated data through early 2025. While I hold a strong interest in Bitcoin, this is an **educational project**, not investment advice.
 
 ---
 
