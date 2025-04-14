@@ -67,6 +67,37 @@ To help answer the key questions, this report analyzes Bitcoin’s performance s
 > **Note of caution**:  
 > This analysis is entirely based on **historical data** (2014–2021). The period analyzed is relatively short and includes years of fairly low inflation, as well as Bitcoin’s early adoption phase with massive investor inflows. Extrapolating past performance into the future can be misleading. We strongly recommend complementing any conclusions here with **forward-looking** research, especially as inflation rose markedly in 2022.
 
+---
+
+### Data Description & Methodology
+
+All the raw data used in this project is available in the `/data/` folder.
+
+I worked with 4 different datasets:
+
+| Asset | Dataset Used | Frequency | Notes |
+|-------|-----------------|------------|-------|
+| Bitcoin | BTC | Monthly | Already in monthly format. I just extracted: Close price, High, and Low for each respective month since Sep 2014. |
+| S&P 500 | VUSA ETF | Daily | I used the VUSA ETF (which replicates the S&P 500). From the daily data, I captured for each month: Close price, High and Low. |
+| Gold | XAU/USD | 15-min | The dataset was at 15-minute frequency. I extracted the last available value of each day and then, for each month: Close price, High and Low. |
+| Inflation | CPI US | Monthly | I used Jan 2014 as the base value (100% or 0% inflation). Monthly data was already available since Jan 2014. |
+
+---
+
+### Final Datasets
+
+After cleaning, transforming and aggregating the data, I created two final datasets:
+
+| Dataset | Period | Purpose |
+|---------|--------|---------|
+| `final_df_study` | Sep 2014 – Nov 2021 | To replicate the exact period used by the original study. |
+| `final_df_extended` | Sep 2014 – Feb 2025 | To extend the analysis and check if the findings still hold with more recent data. |
+
+To build both datasets, I performed two main joins using the monthly frequency and aligning all assets on the same timeline.
+
+---
+
+
 ### Main Findings
 
 #### Finding 1
