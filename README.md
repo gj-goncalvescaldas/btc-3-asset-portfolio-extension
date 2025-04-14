@@ -308,7 +308,7 @@ This is not exactly the same as the daily intraday range used by the author, but
 
 ## Chart: Correlation Coefficients (Sep 2014 – Feb 2025)
 
-![Fig. 8: Correlation coefficients](/fig/FIG8.png)
+![Fig. 8: Correlation coefficients](/fig/FIG7.png)
 
 ### Key Insights:
 
