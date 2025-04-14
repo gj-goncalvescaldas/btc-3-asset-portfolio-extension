@@ -111,43 +111,108 @@ Despite these small differences, the overall conclusions of the study remain con
 
 ## Main Findings
 
-#### Finding 1
+#### Finding 1  
 **Strong outperformance of Bitcoin** over the observation period (Sep 2014 – Oct 2021).  
-- Bitcoin’s average annual return of **+103.2%** dwarfed gold’s **+5.4%** and the S&P 500’s **+12.5%**.  
-- Over the entire period, Bitcoin’s value increased by a factor of roughly **160×**, compared to **2.3×** for the S&P 500 and **1.5×** for gold.
+*(From the original study by Phillip Schottler)*
+
+- Bitcoin’s average annual return: **+103.2%**  
+- S&P 500: **+12.5%**  
+- Gold: **+5.4%**  
+- Over the entire period, Bitcoin’s value increased by a factor of **~160×**, compared to **2.3×** for the S&P 500 and **1.5×** for gold.
+
+---
+
+#### Updated Finding 1  
+**Strong outperformance of Bitcoin** over the extended observation period (Sep 2014 – Feb 2025).  
+*(Based on my own replication with extended data)*
+
+- Bitcoin’s average annual return (CAGR): **+67.7%**  
+- S&P 500 CAGR: **+13.7%**  
+- Gold CAGR: **+8.4%**
+
+- Over the full period:
+  - Bitcoin: from **$386.94** to **$84,373.01** → **~218×**
+  - S&P 500: from **23.26** to **88.71** → **~3.8×**
+  - Gold: from **$1,207.83** to **$2,794.43** → **~2.3×**
+
+<div align="center">
+  <img src="/fig/FIG1.png" width="800">
+</div>
+
+##### Comment  
+Bitcoin is a relatively new asset, and it's maturing over time. Naturally, its performance is starting to stabilize.
+
+Still, an average return of **67.7% per year** over more than a decade is extremely unusual in financial markets.
+
+Personally, I believe Bitcoin’s CAGR will keep decreasing progressively over the next few years.
+
+It will likely stabilize once Bitcoin's market capitalization converges closer to that of gold.
+
+---
 
 #### Finding 2
 **Rising popularity of Bitcoin** based on its trading volume.  
 - Daily S&P 500 trading volume remained relatively stable, while Bitcoin’s trading volume grew sharply.  
 - By late 2017, Bitcoin’s trading volume surpassed that of the S&P 500, at times exceeding it by **12.5×** in 2021.  
 - **Caution**: Reported BTC trading volumes could be inflated; further data verification is recommended.
-
+---
 #### Finding 3
-**Year-by-year outperformance** by Bitcoin.  
-- Bitcoin outperformed both gold and the S&P 500 in **every** year except 2018.  
-- Notable performances: **2017** (+1425%) and **2020** (+303%).
+##### Original Finding (Author)
+> **Year-by-year outperformance by Bitcoin**  
+>
+> Bitcoin outperformed both gold and the S&P 500 in every year except **2018**.  
+> Notable performances:  
+> - **2017** → **+1425%**  
+> - **2020** → **+303%**
 
+---
+
+##### Updated Finding 3 (Sep 2014 – Feb 2025)
+
+As we can see in the next chart, Bitcoin continues to outperform both gold and S&P 500 in most of the years. However, we start to see a stabilization in the returns.
+
+> Bitcoin outperformed both gold and the S&P 500 in every year except:
+- **2018** → -74%
+- **2022** → -64%
+- **2025** → -10% (until Feb)
+
+##### Notable Performances:
+- **2017** → **+1369%**
+- **2020** → **+303%**
+- **2023** → **+155%**
+- **2024** → **+121%**
+
+---
+
+## Chart: Annual Returns per Asset (2015 - Feb 2025)
+
+![Fig. 3: Annual Returns per Asset](/fig/FIG3.png)
+
+> Bitcoin remains the leader in performance, but its returns are progressively decreasing as the asset matures.  
+> 📌 **Comment**: Anyone who entered the market in **November 13, 2021** would have had to wait until **February 2024** just to see Bitcoin return to the same value. Patience is key when dealing with such a volatile asset.
+
+---
 #### Finding 4
 **Monthly returns distribution** shows Bitcoin’s **extreme volatility** and **fat tails**.  
 - S&P 500 and gold exhibit a near-normal distribution.  
 - Bitcoin’s distribution is much wider, with more frequent extreme outcomes, yet a **positive skew**.
-
+---
 #### Finding 5
 **Risk vs. return metrics** confirm **Bitcoin’s high reward** and **high risk**:
 - **Annualized volatility** ~82.5% for Bitcoin vs. ~14% for S&P 500.  
 - **Max drawdown** of ~-83% for Bitcoin vs. ~-34% for S&P 500.  
 - **Sharpe ratio** (0% risk-free): 1.3 (BTC) > 0.9 (S&P 500) > 0.4 (gold).  
 - **Value-at-Risk (VaR 95%)** and **Expected Shortfall** also significantly higher for Bitcoin.
-
+---
 #### Finding 6
 **Intraday trading range** is notably higher for Bitcoin, averaging **4.9%** vs. **1%** for S&P 500, with spikes reaching **30–40%**.
-
+---
 #### Finding 7
 **No strong relationship with inflation**:
 - Near-zero correlation between **Bitcoin** and **inflation**.  
 - Bitcoin and S&P 500 have a moderate positive correlation (~0.3), limiting diversification benefits.  
 - Gold remains somewhat negatively correlated with equities, thus helpful for diversification.
-
+---
 #### Finding 8
 **Bitcoin returns under high inflation**:
 - Splitting inflation data into high, medium, and low percentiles does not show any **significant** difference in BTC returns under high inflation.  
