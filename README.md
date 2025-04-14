@@ -167,7 +167,7 @@ It will likely stabilize once Bitcoin's market capitalization converges closer t
 
 ---
 
-##### My Results (Sep 2014 – Feb 2025)
+##### Updated Finding 3 (Sep 2014 – Feb 2025)
 
 As we can see in the next chart, Bitcoin continues to outperform both gold and S&P 500 in most of the years. However, we start to see a stabilization in the returns.
 
