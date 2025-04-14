@@ -323,21 +323,33 @@ As Bitcoin matures and integrates into traditional finance, its correlation with
 
 ---
 #### Finding 8
-**Bitcoin returns under high inflation**:
-- Splitting inflation data into high, medium, and low percentiles does not show any **significant** difference in BTC returns under high inflation.  
-- Mean and median BTC returns were slightly **lower** during high-inflation months, and the **worst** negative outcome also occurred under high inflation.
+##### Original Finding (Author)
 
-### Selected Figures & Tables
+> **Bitcoin returns under high inflation**:  
+> Splitting inflation data into high, medium, and low percentiles does **not** show any **significant** difference in BTC returns under high inflation.  
+> Mean and median BTC returns were **slightly lower** during high-inflation months, and the **worst** negative outcome also occurred under high inflation.
 
+##### Updated Finding 8 (Sep 2014 – Feb 2025)
 
-#### Table: Correlation Coefficients
+![Fig. 9: Monthly Bitcoin returns by inflation percentiles](/fig/FIG9.png)
 
-| **Index**   | **S&P 500** | **Gold** | **Bitcoin** | **US CPI** |
-|:-----------:|:----------:|:--------:|:-----------:|:----------:|
-| **S&P 500** | 1          | -0.15    | 0.3         | 0.11       |
-| **Gold**    | -0.15      | 1        | -0.01       | -0.08      |
-| **Bitcoin** | 0.3        | -0.01    | 1           | 0.04       |
-| **US CPI**  | 0.11       | -0.08    | 0.04        | 1          |
+This boxplot divides Bitcoin monthly returns into 3 groups depending on the **US CPI (month-over-month)** percentiles:
+- **High CPI (top 10%)**
+- **Medium CPI**
+- **Low CPI (bottom 10%)**
+
+#### Key Observations:
+- During **high inflation months**, the **median return is lower** than in other periods.
+- The **largest negative outliers** (worst returns) also occurred during high CPI.
+- **Medium CPI** months actually show the **best performance** on average.
+- **Low CPI** months are positive, but less than medium.
+
+📌 **Interpretation**:  
+While not statistically dramatic, there is a clear **tendency for Bitcoin to struggle more in very high inflation periods**.
+
+This confirms the author’s conclusion that:  
+> Bitcoin is **not** a strong inflation hedge.
+
 
 > **Bottom Line**:  
 > - **Bitcoin** delivered **exponential returns** (2014–2021) but with **significant volatility** and **drawdown risk**.  
