@@ -148,6 +148,8 @@ Personally, I believe Bitcoin’s CAGR will keep decreasing progressively over t
 
 It will likely stabilize once Bitcoin's market capitalization converges closer to that of gold.
 
+---
+
 #### Finding 2
 **Rising popularity of Bitcoin** based on its trading volume.  
 - Daily S&P 500 trading volume remained relatively stable, while Bitcoin’s trading volume grew sharply.  
