@@ -282,10 +282,45 @@ This is not exactly the same as the daily intraday range used by the author, but
 
 ---
 #### Finding 7
-**No strong relationship with inflation**:
-- Near-zero correlation between **Bitcoin** and **inflation**.  
-- Bitcoin and S&P 500 have a moderate positive correlation (~0.3), limiting diversification benefits.  
-- Gold remains somewhat negatively correlated with equities, thus helpful for diversification.
+##### Original Finding (Author)
+
+> **Correlation Coefficients (2014–2021)**  
+>
+> | Index      | S&P 500 | Gold   | Bitcoin | US CPI |
+> |------------|---------|--------|---------|--------|
+> | S&P 500    | 1       | -0.15  | 0.30    | 0.11   |
+> | Gold       | -0.15   | 1      | -0.01   | -0.08  |
+> | Bitcoin    | 0.30    | -0.01  | 1       | 0.04   |
+> | US CPI     | 0.11    | -0.08  | 0.04    | 1      |
+
+> - Bitcoin and S&P 500 show a moderate positive correlation (~0.30).  
+> - Bitcoin and Gold are almost uncorrelated.  
+> - Bitcoin and US CPI (inflation) correlation is nearly zero.
+
+##### Updated Finding 8 (Sep 2014 – Feb 2025)
+
+| Index      | S&P 500 | Gold   | Bitcoin | US CPI |
+|------------|---------|--------|---------|--------|
+| S&P 500    | 1.00    | -0.04  | 0.37    | -0.02  |
+| Gold       | -0.04   | 1.00   | 0.08    | -0.13  |
+| Bitcoin    | 0.37    | 0.08   | 1.00    | -0.04  |
+| US CPI     | -0.02   | -0.13  | -0.04   | 1.00   |
+
+## Chart: Correlation Coefficients (Sep 2014 – Feb 2025)
+
+![Fig. 8: Correlation coefficients](/fig/FIG8.png)
+
+### Key Insights:
+
+| Relation | Comment | Change vs Author |
+|----------|---------|------------------|
+| Bitcoin vs S&P 500 | The correlation increased from **0.30** to **0.37** | Bitcoin is behaving more like a risk-on asset |
+| Bitcoin vs Gold | Slight increase from **-0.01** to **0.08** | Still uncorrelated |
+| Bitcoin vs US CPI | Dropped from **0.04** to **-0.04** | Confirmed: No inflation hedge behaviour |
+
+> 📌 **Comment**:  
+As Bitcoin matures and integrates into traditional finance, its correlation with the stock market (S&P 500) is increasing. On the other hand, its correlation with inflation (CPI) remains almost zero or even slightly negative, reinforcing that Bitcoin has not been acting as a short-term inflation hedge during this period.
+
 ---
 #### Finding 8
 **Bitcoin returns under high inflation**:
