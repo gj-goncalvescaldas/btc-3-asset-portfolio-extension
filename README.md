@@ -95,10 +95,21 @@ After cleaning, transforming and aggregating the data, I created two final datas
 
 To build both datasets, I performed two main joins using the monthly frequency and aligning all assets on the same timeline.
 
+### About My Results vs The Original Study
+
+My results are slightly different from the author's — and I believe this is mainly due to differences in the raw data used and the data transformation process applied.
+
+Unfortunately, I don’t know exactly which sources, cleaning steps or adjustments were made in the original study. However, the differences are minimal and absolutely reasonable given the context.
+
+> For example:  
+> - The author reported a Bitcoin CAGR of **103.2%** for the period Sep 2014 – Nov 2021.  
+> - My replication resulted in a Bitcoin CAGR of **100.7%** for the same period.
+
+Despite these small differences, the overall conclusions of the study remain consistent for the same time period.
+
 ---
 
-
-### Main Findings
+## Main Findings
 
 #### Finding 1
 **Strong outperformance of Bitcoin** over the observation period (Sep 2014 – Oct 2021).  
