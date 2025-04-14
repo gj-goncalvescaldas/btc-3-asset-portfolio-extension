@@ -11,7 +11,7 @@
 ---
 
 ## Introduction
-Welcome to this GitHub project focusing on **Bitcoin’s role in a 3-asset portfolio**. The main objective here is to analyze the findings from an academic study and then replicate or extend those findings using more recent data. While I hold a strong interest in Bitcoin as an asset, please note this is **not** financial or investment advice but rather an **educational** exploration.
+Welcome to this project analyzing **Bitcoin’s role in a 3-asset portfolio** alongside gold and the S&P 500. This work replicates and extends the findings of a published academic study using updated data through early 2025. While I hold a strong interest in Bitcoin, this is an **educational project**, not investment advice.
 
 ---
 
@@ -351,11 +351,70 @@ This confirms the author’s conclusion that:
 > Bitcoin is **not** a strong inflation hedge.
 
 
-> **Bottom Line**:  
-> - **Bitcoin** delivered **exponential returns** (2014–2021) but with **significant volatility** and **drawdown risk**.  
-> - Its correlation with **inflation** is near **zero**, suggesting **no clear hedging** benefits.  
-> - A **moderate positive correlation** with **equities** reduces its role as a diversifier compared to **gold** (which is somewhat negatively correlated).  
-> - Historical performance does **not** guarantee future results—particularly with higher inflation observed post-2021, Bitcoin’s behavior could **change**.
+---
+
+## Key Differences vs The Original Study
+
+After extending the dataset from November 2021 to February 2025, several important differences emerged between my analysis and the original study by Phillip Schottler.
+
+### 1. Bitcoin CAGR has decreased significantly
+| Period | Bitcoin CAGR |
+|--------|--------------|
+| Sep 2014 – Nov 2021 | 103.2% (Author) / 100.7% (Mine) |
+| Sep 2014 – Feb 2025 | 67.7% (Mine) |
+
+- Bitcoin's extraordinary returns from its early years are clearly fading.
+- The decrease in CAGR is logical as the asset matures and grows in market capitalization.
+
+---
+
+### 2. Bitcoin’s Volatility is Stabilizing
+| Period | Bitcoin Volatility (Annualized) |
+|--------|---------------------------------|
+| Sep 2014 – Nov 2021 | 82.5% (Author) |
+| Sep 2014 – Feb 2025 | 74.5% (Mine) |
+
+- Bitcoin’s volatility remains extremely high, but it shows a decreasing trend over time.
+- The asset is becoming less explosive but still far from traditional asset behavior.
+
+---
+
+### 3. Increased Correlation with Equities (S&P 500)
+| Relation | Original Study (2014-2021) | Extended (2014-2025) |
+|----------|------------------------------|------------------------|
+| BTC vs S&P 500 | 0.30 | 0.37 |
+
+- Bitcoin is behaving increasingly like a *risk-on* asset.
+- Correlation with gold remains low.
+- Correlation with inflation (CPI) is practically zero or slightly negative.
+
+---
+
+### 4. Bitcoin Performance is Worse During High Inflation
+- The worst Bitcoin monthly returns happened during the highest inflation months.
+- This confirms Bitcoin is **not** behaving as an inflation hedge in the short-term.
+
+---
+
+### 5. S&P 500 Sharpe Ratio Improved
+| Period | S&P 500 Sharpe Ratio |
+|--------|-----------------------|
+| Sep 2014 – Nov 2021 | 0.9 (Author) |
+| Sep 2014 – Feb 2025 | 1.1 (Mine) |
+
+- S&P 500 showed better risk-adjusted returns during the extended period.
+- Gold remained stable with low returns but defensive characteristics.
+
+---
+
+### Final Thought
+> Bitcoin remains a unique asset:  
+> - Outstanding long-term returns.  
+> - Huge volatility and risk.  
+> - Poor short-term inflation hedge.  
+> - Increasingly correlated with equity markets.  
+
+This evolution reinforces the idea that Bitcoin is transitioning from a speculative niche asset towards a more integrated — but still highly volatile — component of financial markets.
 
 ---
 
