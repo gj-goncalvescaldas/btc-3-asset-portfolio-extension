@@ -111,10 +111,42 @@ Despite these small differences, the overall conclusions of the study remain con
 
 ## Main Findings
 
-#### Finding 1
+#### Finding 1  
 **Strong outperformance of Bitcoin** over the observation period (Sep 2014 – Oct 2021).  
-- Bitcoin’s average annual return of **+103.2%** dwarfed gold’s **+5.4%** and the S&P 500’s **+12.5%**.  
-- Over the entire period, Bitcoin’s value increased by a factor of roughly **160×**, compared to **2.3×** for the S&P 500 and **1.5×** for gold.
+*(From the original study by Phillip Schottler)*
+
+- Bitcoin’s average annual return: **+103.2%**  
+- S&P 500: **+12.5%**  
+- Gold: **+5.4%**  
+- Over the entire period, Bitcoin’s value increased by a factor of **~160×**, compared to **2.3×** for the S&P 500 and **1.5×** for gold.
+
+---
+
+#### Updated Finding 1  
+**Strong outperformance of Bitcoin** over the extended observation period (Sep 2014 – Feb 2025).  
+*(Based on my own replication with extended data)*
+
+- Bitcoin’s average annual return (CAGR): **+67.7%**  
+- S&P 500 CAGR: **+13.7%**  
+- Gold CAGR: **+8.4%**
+
+- Over the full period:
+  - Bitcoin: from **$386.94** to **$84,373.01** → **~218×**
+  - S&P 500: from **23.26** to **88.71** → **~3.8×**
+  - Gold: from **$1,207.83** to **$2,794.43** → **~2.3×**
+
+<div align="center">
+  <img src="../fig/FIG1.png" width="800">
+</div>
+
+##### Comment  
+Bitcoin is a relatively new asset, and it's maturing over time. Naturally, its performance is starting to stabilize.
+
+Still, an average return of **67.7% per year** over more than a decade is extremely unusual in financial markets.
+
+Personally, I believe Bitcoin’s CAGR will keep decreasing progressively over the next few years.
+
+It will likely stabilize once Bitcoin's market capitalization converges closer to that of gold.
 
 #### Finding 2
 **Rising popularity of Bitcoin** based on its trading volume.  
