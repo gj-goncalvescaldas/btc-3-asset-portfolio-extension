@@ -136,7 +136,7 @@ Despite these small differences, the overall conclusions of the study remain con
   - Gold: from **$1,207.83** to **$2,794.43** → **~2.3×**
 
 <div align="center">
-  <img src="../fig/FIG1.png" width="800">
+  <img src="/fig/FIG1.png" width="800">
 </div>
 
 ##### Comment  
