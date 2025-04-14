@@ -252,9 +252,34 @@ Bitcoin shows much higher volatility compared to traditional assets like the S&P
 > - Bitcoin’s CAGR (67.7%) shows a significant decrease compared to the early period (103.2%), confirming the maturation of the asset.
 
 ---
----
 #### Finding 6
-**Intraday trading range** is notably higher for Bitcoin, averaging **4.9%** vs. **1%** for S&P 500, with spikes reaching **30–40%**.
+##### Original Finding (Author)
+
+> **Intraday trading range** is notably higher for Bitcoin, averaging **4.9%** vs. **1%** for S&P 500, with spikes reaching **30–40%**.
+
+> The author used daily data to calculate this metric.
+
+##### Updated Finding 6 (Sep 2014 – Feb 2025)
+
+In my case, since I worked with **monthly data** for consistency across all assets, I approximated the intraday range using the **High - Low** of each day aggregated monthly.
+
+This is not exactly the same as the daily intraday range used by the author, but it still captures the relative volatility behaviour of the assets.
+
+| Asset     | Long-term avg. Intraday Range |
+|-----------|-------------------------------|
+| S&P 500   | **6.94%**                    |
+| Bitcoin   | **31.15%**                   |
+
+##### Chart: Intraday trading ranges (monthly data approximation)
+
+![Fig. 6: Intraday trading ranges (monthly data approximation)](/fig/FIG6.png)
+
+##### Comments & Interpretation:
+- Bitcoin continues to show a much higher intraday volatility compared to S&P 500.
+- However, there is a clear pattern of stabilization from **2021** onwards for both assets.
+- Bitcoin's intraday range has progressively decreased, moving towards a more "mature asset" behaviour.
+- The S&P 500 also experienced higher ranges during stress periods (2018, 2020 COVID crisis), but its long-term average remains significantly lower.
+
 ---
 #### Finding 7
 **No strong relationship with inflation**:
