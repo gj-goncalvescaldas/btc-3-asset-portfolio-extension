@@ -120,8 +120,6 @@ Despite these small differences, the overall conclusions of the study remain con
 - Gold: **+5.4%**  
 - Over the entire period, Bitcoin’s value increased by a factor of **~160×**, compared to **2.3×** for the S&P 500 and **1.5×** for gold.
 
----
-
 #### Updated Finding 1  
 **Strong outperformance of Bitcoin** over the extended observation period (Sep 2014 – Feb 2025).  
 *(Based on my own replication with extended data)*
@@ -165,8 +163,6 @@ It will likely stabilize once Bitcoin's market capitalization converges closer t
 > - **2017** → **+1425%**  
 > - **2020** → **+303%**
 
----
-
 ##### Updated Finding 3 (Sep 2014 – Feb 2025)
 
 As we can see in the next chart, Bitcoin continues to outperform both gold and S&P 500 in most of the years. However, we start to see a stabilization in the returns.
@@ -181,8 +177,6 @@ As we can see in the next chart, Bitcoin continues to outperform both gold and S
 - **2020** → **+303%**
 - **2023** → **+155%**
 - **2024** → **+121%**
-
----
 
 ## Chart: Annual Returns per Asset (2015 - Feb 2025)
 
