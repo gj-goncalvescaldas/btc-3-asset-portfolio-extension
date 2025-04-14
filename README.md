@@ -297,7 +297,7 @@ This is not exactly the same as the daily intraday range used by the author, but
 > - Bitcoin and Gold are almost uncorrelated.  
 > - Bitcoin and US CPI (inflation) correlation is nearly zero.
 
-##### Updated Finding 8 (Sep 2014 – Feb 2025)
+##### Updated Finding 7 (Sep 2014 – Feb 2025)
 
 | Index      | S&P 500 | Gold   | Bitcoin | US CPI |
 |------------|---------|--------|---------|--------|
