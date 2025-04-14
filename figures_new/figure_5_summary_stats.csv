@@ -1,8 +1,0 @@
-,S&P 500,Gold,Bitcoin
-Annual return (in %),10.1,12.8,17.4
-Annual volatility (in %),1174.8,1104.2,6083.3
-Sharpe ratio,0.9,1.2,0.6
-"Max. drawdown (monthly, in %)",-19.3,-14.7,-71.0
-"Max. drawdown (daily, in %)",-33.9,,-83.0
-VaR(95) (in %),-412.2,-460.6,-1749.8
-CVaR(5) (in %),-756.1,-506.5,-2826.9
