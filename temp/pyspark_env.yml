@@ -1,0 +1,9 @@
+name: pyspark_env
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - openjdk=11
+  - pyspark=3.5
+  - jupyter
+  - ipykernel
