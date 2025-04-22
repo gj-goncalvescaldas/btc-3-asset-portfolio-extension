@@ -1,4 +1,4 @@
-name: C:\Users\TESTER\Desktop\Laboral\GIT\btc-3-asset-portfolio-extension\env
+name: btc
 channels:
   - conda-forge
   - defaults
